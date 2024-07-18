@@ -14,7 +14,7 @@ jobs:
     # Build the code
     - name: Build
       run: npx yarn build
-      # Archives the contents of the dist folder and uploads it to an artifactory system
+    # Archives the contents of the dist folder and uploads it to an artifactory system
     - name: Upload artifact
       uses: actions/upload-artifact@v3
       with: 
